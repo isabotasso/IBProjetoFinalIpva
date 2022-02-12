@@ -32,7 +32,7 @@
 	      <h1 class= col-4 >Lista de Carros</h1>
 	      <hr>
 		</div>
-	<form action="CrudCarro" method="post">
+	<form action="CRUDCarro" method="post">
 		<button type="submit" class="btn btn-dark mb-3" name="option" value="insertForm">Cadastrar Carro</button>
 	</form>
 	
@@ -48,7 +48,7 @@
 			<tbody>
 				<c:forEach var="carro" items="${listCarro}">
 					<tr>
-						<form action="CrudCarro" method="post">
+						<form action="CRUDCarro" method="post">
 							<td>
 								<c:out value="${carro.id}"/>
 								<input type="hidden" name="id" value="${carro.id}"/>

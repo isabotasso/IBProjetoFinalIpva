@@ -27,7 +27,7 @@
 	</nav>
 	
 		<div class="container w-50" style="outline: 1px solid #cccccc;">
-		<form action="CrudIpva" method="post">
+		<form action="CRUDIpva" method="post">
 	 <h1 class="mt-3">Adicionar IPVA</h1>
 		<c:choose>
 			<c:when test="${ ipva == null }">
