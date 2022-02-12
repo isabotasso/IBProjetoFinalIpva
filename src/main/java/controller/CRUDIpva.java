@@ -62,6 +62,7 @@ public class CRUDIpva extends HttpServlet {
 		break;
 		default:
 			selectAllIpva(request, response);
+		}
 	}
 		private void showInsertIpva(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
 			request.getRequestDispatcher("formIpva.jsp").forward(request, response);
